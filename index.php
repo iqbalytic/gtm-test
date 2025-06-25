@@ -16,13 +16,20 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>LR Test - Home</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-6">
+          <h1>Hello, world!</h1>
+          <button id="btn-hardcoded" class="btn btn-primary">Click Hardcoded</button>
+          <button class="trackable-button" class='btn btn-danger'>Click via DOM</button>
+        </div>
+      </div>
+    </div>
     
-    <button id="btn-hardcoded">Click Hardcoded</button>
-    <button class="trackable-button">Click via DOM</button>
 
     
     <!--script hardcode GTM-->
