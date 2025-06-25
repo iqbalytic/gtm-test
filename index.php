@@ -24,8 +24,45 @@
       <div class="row justify-content-md-center">
         <div class="col-6">
           <h1>Hello, world!</h1>
-          <button id="btn-hardcoded" class="btn btn-primary">Click Hardcoded</button>
-          <button class="trackable-button" class='btn btn-danger'>Click via DOM</button>
+          <button id="btn-hardcoded" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="modalHardcode">Click Hardcoded</button>
+          <button class="trackable-button" class='btn btn-danger' data-bs-toggle="modal" data-bs-target="modalDOM">Click via DOM</button>
+
+          <div class="modal fade" id="modalHardcode" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Hardcode Test</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Udahan</button>
+                  <button type="button" class="btn btn-primary">Lanjut</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="modalDOM" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Hardcode Test</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Udahan</button>
+                  <button type="button" class="btn btn-primary">Lanjut</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
