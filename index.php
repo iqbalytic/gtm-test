@@ -25,7 +25,7 @@
         <div class="col-6">
           <h1>Hello, world!</h1>
           <button id="btn-hardcoded" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="modalHardcode">Click Hardcoded</button>
-          <button class="trackable-button" class='btn btn-danger' data-bs-toggle="modal" data-bs-target="modalDOM">Click via DOM</button>
+          <button class="trackable-button btn btn-danger" data-bs-toggle="modal" data-bs-target="modalDOM">Click via DOM</button>
 
           <div class="modal fade" id="modalHardcode" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
